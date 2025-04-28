@@ -16,14 +16,16 @@ void inputdata(){
     cout << "input lebar:";
     cin >> lebar;
 }
-    
+    void menghitungluas(){
+        luas = panjang*lebar;
+        cout << "luas persegi panjang =" << luas << endl;
+    }
 
 };
-
-
-
-
 int main(){
-
+    persegipanjang per;
+    per.inputdata();
+    per.menghitungluas();
+    return 0; 
 
 }
